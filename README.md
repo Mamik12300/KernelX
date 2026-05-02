@@ -54,7 +54,7 @@ This project focuses on simplicity, control, and building a system without legac
 Source code is currently provided as:
 KernelX-source.zip
 
-ISO builds will be available in future releases.
+ISO builds are also avaiable.
 
 ---
 
