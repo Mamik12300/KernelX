@@ -7,7 +7,7 @@ KernelX OS - experimental operating system built from scratch.
 
 ### Light Theme
 ![KernelX Light](screenshots/KernelX-light.jpg)
-# 🧠 KernelX OS
+# KernelX OS
 
 KernelX OS is an experimental operating system built from scratch by  
 Mamik Kosyntsev (12–13 y/o developer).
@@ -32,10 +32,10 @@ This project focuses on simplicity, control, and building a system without legac
 ---
 
 ## 🧩 Architecture
-KernelX = Custom Kernel
-GUI Desktop
-Terminal
-KField FS (concept)
+- KernelX = Custom Kernel
+- GUI Desktop
+- Terminal
+- KField FS (concept)
 
 ---
 
@@ -52,7 +52,7 @@ KField FS (concept)
 ## 📦 Download
 
 Source code is currently provided as:
-KernelX-source-v0.8.1.zip
+KernelX-source.zip
 
 ISO builds will be available in future releases.
 
@@ -62,11 +62,11 @@ ISO builds will be available in future releases.
 
 After building:
 
-`bash
+
 make
 make run
 Or manually:
-Bash
+
 qemu-system-x86_64 -cdrom KernelX.iso
 🧠 Commands
 Inside terminal:
