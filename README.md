@@ -1,5 +1,10 @@
 # KernelX
 KernelX OS - experimental operating system built from scratch.
+## 📸 Screenshots
+
+![KernelX Desktop](screenshots/kernelx-desktop.png)
+
+![KernelX Terminal](screenshots/kernelx-terminal.png)
 # 🧠 KernelX OS
 
 KernelX OS is an experimental operating system built from scratch by  
