@@ -1,0 +1,91 @@
+KernelX License (Based on GNU GPL v3 with Additional Terms)
+
+Copyright (c) 2026 Mamik Kosyntsev
+
+This software is part of the KernelX OS Project.
+
+------------------------------------------------------------
+
+1. Permission
+
+You are allowed to:
+
+- Use this software
+- Study and modify the source code
+- Share and redistribute this software
+- Create derivative works based on this project
+
+------------------------------------------------------------
+
+2. Mandatory Attribution
+
+Any use, modification, or redistribution of this software
+or any part of its source code MUST include clear credit
+to the original author:
+
+    "Mamik Kosyntsev – KernelX OS Project"
+
+This credit must be visible in at least ONE of the following:
+
+- Source code files
+- Documentation
+- About section / system info / UI (if applicable)
+
+Removing or hiding this attribution is strictly prohibited.
+
+------------------------------------------------------------
+
+3. Open Source Requirement (Copyleft)
+
+If you modify, extend, or reuse this software (in whole or in part):
+
+- You MUST make the source code publicly available
+- You MUST use the same license (KernelX License)
+- You MUST document your changes
+
+Closed-source forks or derivatives are NOT allowed.
+
+------------------------------------------------------------
+
+4. Non-Commercial Restriction
+
+You are NOT allowed to:
+
+- Sell this software
+- Use this software for commercial purposes
+- Include this software in any paid product or service
+
+Any commercial usage requires explicit written permission
+from the original author (Mamik Kosyntsev).
+
+------------------------------------------------------------
+
+5. Distribution
+
+When redistributing this software:
+
+- This LICENSE file MUST be included
+- Attribution MUST remain intact
+- Modified versions must be clearly marked
+
+------------------------------------------------------------
+
+6. No Warranty
+
+This software is provided "as is", without warranty of any kind.
+
+The author is not responsible for any damage, data loss,
+or issues caused by the use of this software.
+
+------------------------------------------------------------
+
+7. Acceptance
+
+By using, modifying, or distributing this software,
+you agree to all terms of this license.
+
+------------------------------------------------------------
+
+KernelX OS Project
+Created by Mamik Kosyntsev
+2026
