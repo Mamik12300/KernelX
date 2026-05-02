@@ -22,7 +22,7 @@ This project focuses on simplicity, control, and building a system without legac
 - Graphical desktop (KernelX Desktop)
 - Window system
 - Taskbar + Start Menu
-- File Explorer (KField concept)
+- File Explorer (KFiel)
 - Terminal (kxsh)
 - Built-in commands (help, fastfetch, etc.)
 - Keyboard + PS/2 mouse support
@@ -32,10 +32,10 @@ This project focuses on simplicity, control, and building a system without legac
 ---
 
 ## 🧩 Architecture
-- KernelX = Custom Kernel
+- KernelX = Homemade Kernel
 - GUI Desktop
 - Terminal
-- KField FS (concept)
+- KField FS
 
 ---
 
