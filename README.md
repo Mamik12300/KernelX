@@ -1,102 +1,92 @@
-# KernelX
-KernelX OS - experimental operating system built from scratch.
-## 📸 Screenshots
+🚀 KernelX OS
 
-### Dark Theme
-![KernelX Dark](screenshots/KernelX-dark.jpg)
+KernelX OS is an experimental operating system built from scratch by
+Mamik Kosyntsev (13 y/o developer).
 
-### Light Theme
-![KernelX Light](screenshots/KernelX-light.jpg)
-# KernelX OS
+The project focuses on simplicity, control, and understanding how operating systems work at a low level.
 
-KernelX OS is an experimental operating system built from scratch by  
-Mamik Kosyntsev (12–13 y/o developer).
+🧠 Architecture
+x86_64 (64-bit)
+GRUB Multiboot boot
+Custom kernel
+Framebuffer graphics
 
-This project focuses on simplicity, control, and building a system without legacy complexity.
+KernelX runs on a fully custom kernel designed for modern x86_64 systems.
 
----
+⚠️ Current State
 
-## 🚀 Features
+KernelX is under active development.
 
-- Custom kernel (Multiboot)
-- Graphical desktop (KernelX Desktop)
-- Window system
-- Taskbar + Start Menu
-- File Explorer (KFiel)
-- Terminal (kxsh)
-- Built-in commands (help, fastfetch, etc.)
-- Keyboard + PS/2 mouse support
-- Light / Dark themes
-- Window dragging
+The system currently runs in a framebuffer terminal
+GUI/Desktop environment is in development
+Many subsystems are still being improved
 
----
+👉 The current stable build is KernelX v1.5
 
-## 🧩 Architecture
-- KernelX = Homemade Kernel
-- GUI Desktop
-- Terminal
-- KField FS
+✨ Features
+Custom 64-bit kernel
+GRUB Multiboot ISO boot
+Framebuffer graphics output
+PS/2 keyboard input
+Login system (username/password)
+Terminal (kxsh)
+Built-in commands (help, fastfetch, etc.)
+KField virtual filesystem
+FAT32 read/write support
+Early PCI / USB (XHCI) detection
+📸 Screenshots
+Dark Theme (legacy GUI preview)
 
----
+Light Theme (legacy GUI preview)
 
-## ⚡ Why KernelX
-
-- Minimal design (no unnecessary layers)
-- Full control over the system
-- Custom-built GUI (not KDE/GNOME)
-- Clean architecture
-- Learning-focused OS development
-
----
-
-## 📦 Download
-
-Source code is currently provided as:
-KernelX-source.zip
-
-ISO builds are also avaiable.
-
----
-
-## ▶️ Run (QEMU)
-
-After building:
-
-
-make
-make run
-Or manually:
-
-qemu-system-x86_64 -cdrom KernelX.iso
-🧠 Commands
-Inside terminal:
-
-help
-fastfetch
-files
-settings
-terminal
-clear
-poweroff
+▶️ Run (QEMU)
+qemu-system-x86_64 \
+  -cdrom KernelX.iso \
+  -boot d \
+  -drive if=ide,index=0,format=raw,file=KernelX-release.img
+📦 Repository Contents
+kernel/                → kernel source code
+iso/                   → ISO build files
+KernelX.iso            → bootable image
+KernelX-release.img    → clean FAT32 disk image
+🧩 Components
+KernelX → custom kernel
+KField → virtual filesystem
+kxsh → terminal shell
+⚡ Why KernelX
+Minimal design (no unnecessary layers)
+Full control over the system
+Built completely from scratch
+Learning-focused OS development
+Clean architecture
+🔮 Future Plans
+Graphical Desktop Environment
+Mouse support
+USB drivers (keyboard & storage)
+File manager
+Window system
+ELF program loader
+Networking
 ⚠️ Disclaimer
-This is an experimental OS project.
-Do NOT use on real hardware.
+
+This is a hobby OS project.
+
+Do NOT use on real hardware yet.
+
 👨‍💻 Developer
+
 Mamik Kosyntsev
 KernelX OS Project (2026)
+
 📜 License
-This project uses a custom KernelX License:
+
+Custom KernelX License:
+
 Attribution required
 Open-source required
 Non-commercial use only
+
 See LICENSE file for details.
-🔮 Future Plans
-Real KField filesystem
-ELF loader (run programs)
-Drivers
-Networking
-Linux compatibility layer
-More advanced GUI
+
 🏁 Goal
-KernelX is an attempt to rethink how operating systems should be built:
 Less complexity. More control.
