@@ -36,17 +36,14 @@ FAT32 read/write support
 Early PCI / USB (XHCI) detection
 📸 Screenshots
 
-Dark Theme (legacy GUI preview v8.1.0)
+### Dark Theme (legacy GUI preview v8.1.0)
+![KernelX Dark](screenshots/KernelX-dark.jpg)
 
-screenshots/KernelX-dark.jpg
+### Light Theme (legacy GUI preview v8.1.0)
+![KernelX Light](screenshots/KernelX-light.jpg)
 
-Light Theme (legacy GUI preview v8.1.0)
-
-screenshots/KernelX-light.jpg
-
-KernelX (v1.5)
-
-screenshots/kernelxv.1.5.png
+### KernelX (v1.5)
+![KernelX v1.5](screenshots/kernelxv1.5.png)
 
 ▶️ Run (QEMU)
 qemu-system-x86_64 \
