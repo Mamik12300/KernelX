@@ -35,9 +35,11 @@ KField virtual filesystem
 FAT32 read/write support
 Early PCI / USB (XHCI) detection
 📸 Screenshots
-Dark Theme (legacy GUI preview)
 
-Light Theme (legacy GUI preview)
+Dark Theme (legacy GUI preview v8.1.0)
+screenshots/KernelX-dark.jpg
+Light Theme (legacy GUI preview v8.1.0)
+
 
 ▶️ Run (QEMU)
 qemu-system-x86_64 \
