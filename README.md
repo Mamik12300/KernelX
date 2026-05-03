@@ -37,9 +37,16 @@ Early PCI / USB (XHCI) detection
 📸 Screenshots
 
 Dark Theme (legacy GUI preview v8.1.0)
+
 screenshots/KernelX-dark.jpg
+
 Light Theme (legacy GUI preview v8.1.0)
 
+screenshots/KernelX-light.jpg
+
+KernelX (v1.5)
+
+screenshots/kernelxv.1.5.jpg
 
 ▶️ Run (QEMU)
 qemu-system-x86_64 \
