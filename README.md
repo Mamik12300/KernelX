@@ -46,7 +46,7 @@ screenshots/KernelX-light.jpg
 
 KernelX (v1.5)
 
-screenshots/kernelxv.1.5.jpg
+screenshots/kernelxv.1.5.png
 
 ▶️ Run (QEMU)
 qemu-system-x86_64 \
